@@ -1,33 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Equalizer landing page</title>
-</head>
-<body>
+    <meta
+      name="description"
+      content="Discover the Equalizer landing page. Enhance your music experience with our professional-grade audio equalizer for Android and iOS."
+    />
+    <meta
+      name="keywords"
+      content="Equalizer, music, audio, premium EQ, Android equalizer, iOS equalizer, audio tuning, volume mixer"
+    />
+    <meta name="author" content="Frontend Mentor | Ruben de Man" />
 
-  We make your music sound extraordinary.
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  A system audio equalizer specifically designed for Android and iOS. Freely tune the 
-  way your music sounds with a professional grade parametric EQ & volume mixer. Control 
-  bass, mids, treble, gain control, reverb, and more!
+    <title>Equalizer landing page</title>
 
-  Premium EQ
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="#">
+          <img
+            src="./assets/images/logo.svg"
+            width="147"
+            height="33"
+            alt="Equalizer Logo"
+        /></a>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <h1 class="hero__title">We make your music sound extraordinary.</h1>
+            <p class="hero__text">
+              A system audio equalizer specifically designed for Android and
+              iOS. Freely tune the way your music sounds with a professional
+              grade parametric EQ & volume mixer. Control bass, mids, treble,
+              gain control, reverb, and more!
+            </p>
+          </div>
+        </div>
+      </section>
 
-  Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take 
-  your listening experience to a whole new level and access all our incredible features!
+      <section class="premium-section">
+        <div class="container">
+          <img
+            class="premium-section__image"
+            src="./assets/images/illustration-app.png"
+            width="312"
+            height="642"
+            alt="Illustration of the Equalizer app interface"
+          />
+          <div class="premium-section__content">
+            <h2 class="premium-section__title">Premium EQ</h2>
+            <p class="premium-section__text">
+              Get expert-level control with a robust equalizer, volume mixer,
+              and spatial audio. Take your listening experience to a whole new
+              level and access all our incredible features!
+            </p>
+            <div class="premium-section__price">$4 <span>/ month</span></div>
+            <div class="premium-section__buttons">
+              <button class="button button--primary">
+                <img
+                  src="./assets/images/icon-apple.svg"
+                  width="18"
+                  height="20"
+                  alt="Apple icon"
+                />
+                iOS Download
+              </button>
+              <button class="button button--secondary">
+                <img
+                  src="./assets/images/icon-android.svg"
+                  width="17"
+                  height="20"
+                  alt="Android icon"
+                />
+                Android Download
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <a href="#"
+          ><img
+            src="./assets/images/logo.svg"
+            width="147"
+            height="33"
+            alt="Equalizer Logo"
+        /></a>
+        <div class="footer__right">
+          <div class="footer__text">
+            <p>All rights reserved © Equalizer 2021</p>
+            <p>
+              Have any problems? Contact us via social media or email us at
+              <br />
+              <a class="footer__link" href="#">equalizer@example.com</a>
+            </p>
+          </div>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#"
+                ><img
+                  class="footer__icon"
+                  src="./assets/images/icon-facebook.svg"
+                  width="20"
+                  height="20"
+                  alt="Facebook icon"
+              /></a>
+            </li>
+            <li class="footer__item">
+              <a href="#"
+                ><img
+                  class="footer__icon"
+                  src="./assets/images/icon-instagram.svg"
+                  width="20"
+                  height="20"
+                  alt="Instagram icon"
+              /></a>
+            </li>
+            <li class="footer__item">
+              <a href="#"
+                ><img
+                  class="footer__icon"
+                  src="./assets/images/icon-twitter.svg"
+                  width="20"
+                  height="17"
+                  alt="Twitter icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
-  $4 / month
-
-  iOS Download
-  Android Download
-
-  All rights reserved © Equalizer 2021
-  Have any problems? Contact us via social media or email us at equalizer@example.com
-
-</body>
+    <div class="attribution">
+      <p>
+        Challenge by
+        <a
+          class="attribution__link"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          class="attribution__link"
+          href="https://rubendeman.nl"
+          target="_blank"
+          >Romeo Codes</a
+        >.
+      </p>
+    </div>
+  </body>
 </html>
